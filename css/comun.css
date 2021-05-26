@@ -1,0 +1,24 @@
+/* Estilos Comunes */ 
+header  {
+        position: fixed; /* hace el menu fijo cuando se scrollea */
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #DEC0F1; 
+        display: flex; /* Permite acomodar adentro los H1 y nav */   
+        justify-content: space-between; 
+}
+
+header a {
+    color: #7CB518;
+    text-decoration: none;
+}
+
+header nav i {
+    margin-top: 21.5px;
+    font-size: 36px;
+}
+
+header nav ul {
+    display: none;
+}
