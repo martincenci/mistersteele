@@ -1,16 +1,29 @@
 /* Estilos Comunes */ 
+body { 
+    margin: 0px;
+}
+
+img, video {
+    max-width; 100%;
+}
+
 header  {
         position: fixed; /* hace el menu fijo cuando se scrollea */
         top: 0;
         left: 0;
         right: 0;
-        background-color: #DEC0F1; 
+        background-color: #F3DE2C; 
         display: flex; /* Permite acomodar adentro los H1 y nav */   
         justify-content: space-between; 
+        padding: 2%;
+        font-family: 'Sigmar One', cursive;
 }
 
+header H1 a {
+    font-family: 'Sigmar One', cursive;
+}
 header a {
-    color: #7CB518;
+    color: #FB6107;
     text-decoration: none;
 }
 
@@ -21,4 +34,42 @@ header nav i {
 
 header nav ul {
     display: none;
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    background-color: #F3DE2C; 
+    width: 100%;
+    border-top: 1px solid #FB6107
+}
+
+header nav ul li {
+    padding: 10px;
+    text-align: right;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 1.5em;
+}
+
+nav .fa-chevron-down {
+    display: none;
+}
+
+nav:hover .fa-bars {
+    display: none;
+}
+
+nav:hover .fa-chevron-down {
+    display: block;
+}
+
+nav:hover ul {
+    display: block;
+}
+header nav ul li:hover {
+    background-color: #7EE8FA;
+}
+footer {
+    border-top: 2px solid #1c1d1d;
+    background-color: #7EE8FA;
+    color: black;
+    text-align: center;
 }

@@ -4,12 +4,22 @@ header  {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #7EE8FA; 
+    background-color: #F3DE2C; 
     display: flex; /* Permite acomodar adentro los H1 y nav */   
     justify-content: space-between; 
+    padding: 0px, 2%;
 }
 
 header a {
-color: #7CB518;
+color: #DEC0F1;
 text-decoration: none;
+}
+
+header nav i {
+margin-top: 21.5px;
+font-size: 36px;
+}
+
+header nav ul {
+display: none;
 }
